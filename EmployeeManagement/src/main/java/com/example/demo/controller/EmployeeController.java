@@ -12,7 +12,7 @@ public class EmployeeController {
 
 	EmployeeService es = new EmployeeService();
 
-	@PostMapping("addEmployee")
+	@PostMapping("saveEmployee")
 	String addEmployee(Employee e) {
 
 		return es.saveEmployee(e);
